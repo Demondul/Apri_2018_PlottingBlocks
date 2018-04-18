@@ -1,0 +1,49 @@
+/*CSS reset settings here*/
+*{
+ margin: 0px;
+ padding: 0px;
+}
+#wrapper{
+ width: 950px;
+ background-color: silver;
+ margin: 100px auto; /* pushes wrapper down from top of the window */
+ display: block; 
+ padding-top: 10px;
+}
+#header{
+ height: 150px;
+ background-color: green; 
+ margin: 10px 20px; /* adds a 10px margin to the top and bottom, 20px to left and right */
+}
+#navigation{
+ height: 300px;
+ width: 200px;
+ background-color: blue;
+ display: inline-block; /* allows the navigation to sit next to main content*/
+ vertical-align: top; /* aligns navigation with the top/upper line instead of bottom */
+ margin: 20px 10px 20px 20px; /* adds margin to all sides -- right margin is 10px to accomodate
+                                for margin on main_content */ 
+}
+#main_content{
+ height: 400px;
+ width: 665px; /* adjusted width to fit and align with header's width */
+ background-color: red;
+ display: inline-block; /* allows main_content to sit next to navigation */
+ vertical-align: top; /* aligns main_content with top/upper line instead of bottom */
+ padding: 10px; /* adds padding to adds space from border to sub contents */
+ margin: 20px 0px 20px 10px; /* margin to move main_content away from subheader/wrapper */
+
+}
+.subcontents{
+ height: 196px; /* adjusted width to fit and align with header's width */
+ width: 196px; 
+ background-color: yellow;
+ margin: 5px; /* added 5px margin to add space between each subcontent div */
+ display: inline-block; /* allows all subcontent divs to sit next to each other */
+}
+#advertisement{
+ height: 120px;
+ width: 618px; /* adjusted width to fit and align with header's width */
+ margin: 10px 0px 20px 5px;
+ background-color: purple;
+}
